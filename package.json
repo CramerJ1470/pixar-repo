@@ -1,0 +1,28 @@
+{
+	"name": "pixardirectory",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"client": "cd client && npm start",
+		"backend": "cd server &&npm start",
+		"dev": "concurrently \"npm run backend\"  \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CramerJ1470/pixar-repo.git"
+	},
+	"author": "John Cramer",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CramerJ1470/pixar-repo/issues"
+	},
+	"homepage": "https://github.com/CramerJ1470/pixar-repo#readme",
+	"client": "cd client && npm start",
+	"backend": "cd server &&npm start",
+	"dev": "concurrently \"npm run backend\" \"npm run client\"",
+	"dependencies": {
+		"concurrently": "^7.2.0"
+	}
+}
